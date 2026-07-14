@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Machinefall</title>
+  <desc id="desc">An industrial M inside an amber machine gear.</desc>
+  <rect width="64" height="64" rx="12" fill="#080d0b"/>
+  <path fill="#2a4434" d="M27 5h10l2 7a22 22 0 0 1 5 2l7-3 7 7-3 7a22 22 0 0 1 2 5l7 2v10l-7 2a22 22 0 0 1-2 5l3 7-7 7-7-3a22 22 0 0 1-5 2l-2 7H27l-2-7a22 22 0 0 1-5-2l-7 3-7-7 3-7a22 22 0 0 1-2-5l-7-2V32l7-2a22 22 0 0 1 2-5l-3-7 7-7 7 3a22 22 0 0 1 5-2l2-7Z"/>
+  <circle cx="32" cy="37" r="21" fill="#111a15" stroke="#f2b84b" stroke-width="3"/>
+  <path fill="none" stroke="#f2b84b" stroke-linecap="square" stroke-linejoin="miter" stroke-width="7" d="M18 47V25l14 15 14-15v22"/>
+  <path fill="#8fcf78" d="m32 7 4 8h-8l4-8Zm0 50 4-8h-8l4 8Z"/>
+</svg>

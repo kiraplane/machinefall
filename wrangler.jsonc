@@ -1,0 +1,32 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "main": ".open-next/worker.js",
+  "name": "machinefall",
+  "workers_dev": true,
+  "preview_urls": true,
+  "keep_vars": true,
+  "vars": {
+    "NEXT_PUBLIC_GOOGLE_ANALYTICS_ID": "G-K9X9BNHQBP"
+  },
+  "compatibility_date": "2025-04-01",
+  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  "routes": [
+    {
+      "pattern": "machinefall.wiki",
+      "custom_domain": true,
+      "zone_name": "machinefall.wiki"
+    },
+    {
+      "pattern": "www.machinefall.wiki",
+      "custom_domain": true,
+      "zone_name": "machinefall.wiki"
+    }
+  ],
+  "build": {
+    "command": "pnpm run cf:build"
+  },
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  }
+}

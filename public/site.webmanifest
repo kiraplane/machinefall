@@ -1,0 +1,16 @@
+{
+  "name": "Machinefall Wiki",
+  "short_name": "Machinefall",
+  "description": "Machinefall guides for bases, logistics, armies, lairs, the final boss and PC performance.",
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "theme_color": "#f2b84b",
+  "background_color": "#080d0b",
+  "display": "standalone"
+}
