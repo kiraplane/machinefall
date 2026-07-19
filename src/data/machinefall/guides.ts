@@ -26,6 +26,75 @@ const videos: Record<string, GuideVideo> = {
 
 export const guides: Guide[] = [
   {
+    slug: 'patch-260718-healing-disembark-stomper',
+    path: '/guides/patch-260718-healing-disembark-stomper',
+    title: 'Machinefall Patch v260718',
+    seoTitle: 'Machinefall Patch v260718 - Healing & Stomper Fixes',
+    seoDescription:
+      'Review Machinefall v260718 fixes for attack-move healing, long-distance ship disembark lag, missing Stompers and veteran or elite health.',
+    summary:
+      'Patch v260718 repairs healing on attack move, ship disembark lag and missing Stompers while reducing veteran and elite health.',
+    category: 'Safety',
+    difficulty: 'Status',
+    coverImageUrl: '/machinefall/guides/beginner-guide.jpg',
+    publishedAt: '2026-07-19',
+    updatedAt: '2026-07-19',
+    sourceStrategy: 'official',
+    sourceNotes:
+      'Summarized from the official July 18 Steam patch v260718 announcement.',
+    videoSearchQueries: [
+      'Machinefall v260718',
+      'Machinefall Stomper healing attack move',
+    ],
+    tags: ['Patch notes', 'Healing', 'Stomper'],
+    relatedRoutes: [
+      '/guides/army-formations',
+      '/guides/naval-transport',
+      '/guides/lairs-world-map',
+      '/guides/base-defense',
+    ],
+    body: [
+      {
+        heading: 'Healing on attack move',
+        paragraphs: [
+          'Units should heal correctly while using attack move again. Because the bug was introduced in the previous update, retest the same formation and order before changing the army composition.',
+          'If healing still fails, separate movement from combat once and record the unit type, veterancy and target so the remaining case can be distinguished from the fixed general bug.',
+        ],
+      },
+      {
+        heading: 'Ship disembark and Stomper fixes',
+        paragraphs: [
+          'Long-distance ship disembarking should no longer create the reported lag, and Stompers that failed to appear should now spawn correctly.',
+          'Use a short transport test before committing an army to a distant landing. For Stompers, revisit the expected world-map or production condition on the current save before assuming the content is still missing.',
+        ],
+      },
+      {
+        heading: 'Veteran and elite health change',
+        paragraphs: [
+          'Veteran and elite health has been reduced. Existing formation advice remains useful, but these units should no longer be treated as if old durability values still apply.',
+          'Protect experienced units with positioning and healing instead of relying on health alone, especially during lair and boss routes.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'What does Machinefall v260718 fix?',
+        answer:
+          'It fixes attack-move healing, long-distance ship disembark lag and missing Stompers, and reduces veteran and elite health.',
+      },
+      {
+        question: 'Do veteran units have the same health as before?',
+        answer:
+          'No. The official patch notes say veteran and elite health was reduced.',
+      },
+      {
+        question: 'Should I rebuild my army after this patch?',
+        answer:
+          'Retest healing and durability first. Change the formation only if the same role no longer survives its intended fight.',
+      },
+    ],
+  },
+  {
     slug: 'beginner-guide',
     path: '/guides/beginner-guide',
     title: 'Machinefall Beginner Guide: Your First Stable Campaign',
