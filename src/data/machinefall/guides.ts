@@ -26,6 +26,82 @@ const videos: Record<string, GuideVideo> = {
 
 export const guides: Guide[] = [
   {
+    slug: 'patch-260719-vehicles-buildings-bridges',
+    path: '/guides/patch-260719-vehicles-buildings-bridges',
+    title: 'Machinefall Patch v260719',
+    seoTitle: 'Machinefall v260719 - Vehicles, Buildings & Bridges',
+    seoDescription:
+      'Review Machinefall v260719 changes for returning vehicles, copying buildings, bridge demolition, City Hall progress, silos and construction ammo.',
+    summary:
+      'Patch v260719 adds vehicle returns and building copy-paste while fixing bridge, City Hall, silo, infobox and construction-ammo behavior.',
+    category: 'Safety',
+    difficulty: 'Status',
+    coverImageUrl: '/machinefall/guides/beginner-guide.jpg',
+    publishedAt: '2026-07-20',
+    updatedAt: '2026-07-20',
+    sourceStrategy: 'official',
+    sourceNotes:
+      'Summarized from the official July 19 Steam patch v260719 announcement.',
+    videoSearchQueries: [
+      'Machinefall v260719',
+      'Machinefall return vehicles copy buildings',
+    ],
+    tags: ['Patch notes', 'Vehicles', 'Buildings'],
+    relatedRoutes: [
+      '/guides/patch-260718-healing-disembark-stomper',
+      '/guides/workers-carts',
+      '/guides/depots-logistics',
+      '/guides/base-defense',
+    ],
+    body: [
+      {
+        heading: 'Return vehicles and copy buildings',
+        paragraphs: [
+          'Vehicles can now be returned to their factories. Use this when a vehicle is no longer needed on its current route, then confirm the factory and local workforce can absorb the change before reorganizing the next assignment.',
+          'Buildings that are still under construction can now be copied and pasted. This speeds up repeated layouts, but the copies still need the same materials, labor and route access as a manually placed building.',
+        ],
+      },
+      {
+        heading: 'Bridge demolition now has consequences',
+        paragraphs: [
+          'Units standing on a bridge now drown when that bridge is demolished. Move workers, soldiers and vehicles off the span before removing it, especially when editing a route near an active front.',
+          'After demolition, inspect both sides of the former crossing. A replacement bridge or alternate route may be required before transport and construction orders can continue.',
+        ],
+      },
+      {
+        heading: 'City Hall and silo behavior',
+        paragraphs: [
+          'City Hall now recognizes stone and waste correctly and should no longer stop progress because those resources were misread. Recheck a stalled city before rebuilding its production chain.',
+          'Silos are now ignored by enemy attacks. Keep defending the production and transport network around them, but do not spend the same defensive attention on silos that frontline structures require.',
+        ],
+      },
+      {
+        heading: 'Interface and ammunition fixes',
+        paragraphs: [
+          'The patch fixes an infobox interface bug. If information still looks wrong after updating, reopen the selection and confirm Steam has installed v260719 before changing the related unit or building.',
+          'Free units now conserve ammunition when assigned a construction task. This prevents construction orders from wasting combat supplies and makes mixed work-and-defense groups easier to manage.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'What was added in Machinefall v260719?',
+        answer:
+          'The patch adds returning vehicles to factories and copying buildings while they are under construction.',
+      },
+      {
+        question: 'What happens if I demolish a bridge under units?',
+        answer:
+          'The official patch notes say those units now drown, so clear the bridge before demolition.',
+      },
+      {
+        question: 'Why did my City Hall stop despite having resources?',
+        answer:
+          'v260719 fixes City Hall recognition of stone and waste. Update the game and recheck the stalled city before rebuilding.',
+      },
+    ],
+  },
+  {
     slug: 'patch-260718-healing-disembark-stomper',
     path: '/guides/patch-260718-healing-disembark-stomper',
     title: 'Machinefall Patch v260718',

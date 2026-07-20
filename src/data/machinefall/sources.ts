@@ -1,6 +1,6 @@
 import type { DataSource, GameFact, KeywordMatrixItem } from './types';
 
-export const checkedAt = '2026-07-19';
+export const checkedAt = '2026-07-20';
 
 export const siteFacts = {
   siteName: 'Machinefall Wiki',
@@ -76,7 +76,7 @@ export const sources: DataSource[] = [
     url: 'https://steamcommunity.com/app/3213120/allnews/',
     checkedAt,
     confidence: 'high',
-    note: 'Developer-authored full-version, patch and technical explanations for campaign, vehicles, logistics, defense, cities and simulation scale.',
+    note: 'Developer-authored full-version and patch explanations, including v260719 vehicle returns, building copy-paste, bridge demolition, City Hall, silo and ammo behavior.',
   },
   {
     type: 'developer',
