@@ -1385,6 +1385,78 @@ export const guides: Guide[] = [
       },
     ],
   },
+  {
+    slug: 'patch-260721-simulation-saves-damage',
+    path: '/guides/patch-260721-simulation-saves-damage',
+    title: 'Machinefall Patch v260721',
+    seoTitle: 'Machinefall v260721 - Simulation, Saves & Damage Fixes',
+    seoDescription:
+      'See what Machinefall v260721 changes for simulation performance, campaign difficulty, saving, unit damage and vehicle repair in depots.',
+    summary:
+      'The July 21 build improves large-simulation performance, increases campaign pressure and fixes saves, unit damage and depot vehicle repair.',
+    category: 'Reference',
+    difficulty: 'Status',
+    coverImageUrl: '/machinefall/hero.jpg',
+    publishedAt: '2026-07-24',
+    updatedAt: '2026-07-24',
+    sourceStrategy: 'official',
+    sourceNotes:
+      'Summarized from the developer’s official Steam v260721 update and the same-day feature-poll result.',
+    videoSearchQueries: [
+      'Machinefall v260721',
+      'Machinefall simulation patch',
+      'Machinefall Mech update',
+    ],
+    tags: ['v260721', 'Simulation', 'Saves'],
+    relatedRoutes: [
+      '/guides/depots-logistics',
+      '/guides/army-formations',
+      '/guides/base-defense',
+      '/guides/system-requirements',
+    ],
+    body: [
+      {
+        heading: 'Large simulations should run more efficiently',
+        paragraphs: [
+          'Patch v260721 contains simulation optimizations aimed at the global unit and logistics load that makes Machinefall CPU- and memory-heavy. Retest the same campaign before deleting units or rebuilding routes purely for performance.',
+          'Keep the save and camera position consistent when comparing. A quieter region can hide the real difference, while an active army, depot network and enemy front provide a useful before-and-after test.',
+        ],
+      },
+      {
+        heading: 'Difficulty and combat results changed',
+        paragraphs: [
+          'The developer increased difficulty and fixed unit-damage behavior. A formation or defensive line that survived in an older build may now need stronger supply, spacing or fallback positions.',
+          'Do not interpret a post-patch loss as a broken save. Check whether damage is now applying correctly, then review repair access and depot distance before adding more units to an undersupplied front.',
+        ],
+      },
+      {
+        heading: 'Saving and depot repair received direct fixes',
+        paragraphs: [
+          'The update fixes saving and restores vehicle repair behavior in depots. Make a manual save after loading the patch, confirm the timestamp changes, then test one damaged vehicle at a depot before continuing a long campaign.',
+          'If either function still fails, keep the affected save, note the build number and report the smallest reproducible route. Avoid replacing save files or using unofficial patches.',
+        ],
+      },
+      {
+        heading: 'Mechs won the developer poll',
+        paragraphs: [
+          'A same-day developer poll chose Mechs as the next feature with 47 percent of the vote. This is a roadmap signal, not a claim that mechs are already available in v260721.',
+          'Keep current army planning based on live units. Add mech data only after an official build publishes their costs, controls and battlefield role.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Does v260721 add mechs?',
+        answer:
+          'No. Mechs won the feature poll, but the update notes do not say they are already playable.',
+      },
+      {
+        question: 'Does the patch fix vehicle repairs?',
+        answer:
+          'Yes. The official notes list a fix for vehicles repairing in depots.',
+      },
+    ],
+  },
 ];
 
 export function getGuide(slug: string) {
