@@ -26,6 +26,81 @@ const videos: Record<string, GuideVideo> = {
 
 export const guides: Guide[] = [
   {
+    slug: 'space-age-mech-unit',
+    path: '/guides/space-age-mech-unit',
+    title: 'Machinefall Space Age Mech Unit',
+    seoTitle: 'Machinefall Mech Guide - Space Age Unit Unlock',
+    seoDescription:
+      'Learn what is confirmed about the new Machinefall Mech, where it unlocks in the Space Age and how to prepare a late-game logistics route.',
+    summary:
+      'The community-voted Mech is now live as a free content update and unlocks in the Space Age technology tier as a powerful late-game combat unit.',
+    category: 'Progression',
+    difficulty: 'Intermediate',
+    coverImageUrl: '/machinefall/hero.jpg',
+    publishedAt: '2026-07-24',
+    updatedAt: '2026-07-28',
+    sourceStrategy: 'official',
+    sourceNotes:
+      'Based on the official Steam free-content announcement. The developer confirms the Space Age unlock and late-game role but does not publish exact cost or damage values.',
+    videoSearchQueries: [
+      'Machinefall Mech unit',
+      'Machinefall Space Age Mech',
+    ],
+    tags: ['Mech', 'Space Age', 'Late game'],
+    relatedRoutes: [
+      '/guides/army-formations',
+      '/guides/depots-logistics',
+      '/guides/base-defense',
+      '/guides/patch-260721-simulation-saves-damage',
+    ],
+    body: [
+      {
+        heading: 'Unlock the Mech in the Space Age',
+        paragraphs: [
+          'The new mechanized unit is part of the full game’s free content update and unlocks in the Space Age technology tier. It is not an early-campaign unit, so progress the technology chain before looking for it in basic production.',
+          'The official announcement describes it as a powerful late-game option. It does not publish a resource cost, build time or damage table, so confirm those values in the current build rather than copying pre-release poll speculation.',
+        ],
+      },
+      {
+        heading: 'Prepare production and supply before the unlock',
+        paragraphs: [
+          'A late-game unit is useful only if the economy can build and support it. Keep the Space Age production chain connected to storage and a working depot route before committing the materials.',
+          'Use a short route for the first Mech. Confirm that it can reach the front, receive repairs and operate without starving the rest of the army before expanding production.',
+        ],
+        bullets: [
+          'Reach the Space Age technology tier.',
+          'Check the live recipe and build time.',
+          'Reserve repair and transport capacity.',
+          'Test one Mech before redesigning the full army.',
+        ],
+      },
+      {
+        heading: 'Use it as a late-game option, not a full replacement',
+        paragraphs: [
+          'The announcement says the Mech expands strategic options; it does not say that infantry, ranged support or logistics are obsolete. Place the first unit inside an existing formation and observe which role it actually solves.',
+          'Until exact live stats are documented, avoid claiming a fixed best formation. Compare survivability, target access, repair demand and resource cost against the unit it replaces.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'Is the Machinefall Mech available now?',
+        answer:
+          'Yes. The official July 24 free-content announcement says the new Mech is now available in the full game.',
+      },
+      {
+        question: 'Where does the Mech unlock?',
+        answer:
+          'It unlocks in the Space Age technology tier.',
+      },
+      {
+        question: 'What are the Mech stats and cost?',
+        answer:
+          'The announcement does not publish exact values. Check the current in-game production entry before planning a build.',
+      },
+    ],
+  },
+  {
     slug: 'patch-260719-vehicles-buildings-bridges',
     path: '/guides/patch-260719-vehicles-buildings-bridges',
     title: 'Machinefall Patch v260719',
@@ -1439,8 +1514,8 @@ export const guides: Guide[] = [
       {
         heading: 'Mechs won the developer poll',
         paragraphs: [
-          'A same-day developer poll chose Mechs as the next feature with 47 percent of the vote. This is a roadmap signal, not a claim that mechs are already available in v260721.',
-          'Keep current army planning based on live units. Add mech data only after an official build publishes their costs, controls and battlefield role.',
+          'A same-day developer poll chose Mechs as the next feature with 47 percent of the vote. They were not part of v260721 itself, but the developer released the winning Mech in a free content update on July 24.',
+          'Use the dedicated Space Age Mech guide for the current live status. Exact cost and combat values still need to be checked in the current build because the announcement does not publish a stat table.',
         ],
       },
     ],
@@ -1448,7 +1523,7 @@ export const guides: Guide[] = [
       {
         question: 'Does v260721 add mechs?',
         answer:
-          'No. Mechs won the feature poll, but the update notes do not say they are already playable.',
+          'Not in v260721 itself. The winning Mech became playable in a separate free content update on July 24.',
       },
       {
         question: 'Does the patch fix vehicle repairs?',
